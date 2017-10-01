@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> BMI Calculator </title>
+    <link rel="stylesheet" type="text/css" href="css2.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script type="text/javascript" src="script.js">
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1> BMI Calculator </h1>
+    </header>
+    <div id="content_wrap">
+        <form>
+            <div class="form_folder">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder=" Your Name " />
+                </div>
+                <div>
+                    <label for="name">Gender</label>
+                    <select name="gender">
+                    <option value="male" selected>Male</option>
+                    <option value="female" >Female</option>
+                </select>
+                </div>
+                <div>
+                    <label for="name">Height</label>
+                    <input type="text" name="name" id="height" placeholder=" Your Height (cm) " />
+                </div>
+                <div>
+                    <label for="name">Weight</label>
+                    <input type="text" name="name" id="weight" placeholder=" Your Weight (kg) " />
+                </div>
+                <div>
+                    <input type="button" value="Show My BMI" onclick="bmi(this)" />
+                    <input type="button" value="Reset" onclick="mr_proper(this)" />
+                </div>
+            </div>
+            <div>
+            </div>
+        </form>
+        <h2 id="answer">Hey <span id="user_name"></span>, you are <span id="bmi_value"></span>
+        </h2>
+    </div>
+</body>
+
+</html>

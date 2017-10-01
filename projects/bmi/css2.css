@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:focus {
+    outline: none;
+}
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url(elli-o-43178.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.86;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+label[for=name] {
+    font-size: 130%;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+input[type=text],
+select {
+    margin-top: 2px;
+    float: right;
+    text-align: justify;
+    width: 250px;
+    margin-left: 15px;
+    padding: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 110%;
+}
+
+input[type=button] {
+    font-size: 100%;
+    font-weight: 700;
+    display: inline-block;
+    font-family: inherit;
+    width: 140px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 12%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h2 {
+    visibility: hidden;
+}
+
+#content_wrap form {
+    margin: 0 auto;
+    width: 25%;
+    display: block;
+}
